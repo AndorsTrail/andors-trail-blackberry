@@ -8,7 +8,7 @@
 	android:installLocation="auto"
 	>
 	<uses-sdk 
-		android:minSdkVersion="4" 
+		android:minSdkVersion="11" 
 		android:targetSdkVersion="17"
 		/>
 	
@@ -46,19 +46,19 @@
 			android:theme="@style/Theme.NoBackground"
 			/>
 		<activity android:name=".activity.HeroinfoActivity" />
-		<activity android:name=".activity.MonsterInfoActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.ItemInfoActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.LevelUpActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.MonsterEncounterActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.ConversationActivity" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name=".activity.MonsterInfoActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.ItemInfoActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.LevelUpActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.MonsterEncounterActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.ConversationActivity" android:theme="@android:style/Theme.Holo.Dialog" />
 		<activity android:name=".activity.ShopActivity" />
 		<activity android:name=".activity.AboutActivity" />
 		<activity android:name=".activity.LoadingActivity" />
 		<activity android:name=".activity.Preferences" />
-		<activity android:name=".activity.LoadSaveActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.ActorConditionInfoActivity" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.BulkSelectionInterface" android:theme="@android:style/Theme.Dialog" />
-		<activity android:name=".activity.SkillInfoActivity" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name=".activity.LoadSaveActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.ActorConditionInfoActivity" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.BulkSelectionInterface" android:theme="@android:style/Theme.Holo.Dialog" />
+		<activity android:name=".activity.SkillInfoActivity" android:theme="@android:style/Theme.Holo.Dialog" />
 		<activity android:name=".activity.DisplayWorldMapActivity" />
 	</application>
 	
