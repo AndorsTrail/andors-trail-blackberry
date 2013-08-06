@@ -57,27 +57,48 @@
 
 	<!-- Workaround http://code.google.com/p/andors-trail/issues/detail?id=242 -->
 	<ListView android:layout_width="match_parent" android:layout_height="wrap_content" />
-
-	<LinearLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal"
-		style="@android:style/ButtonBar"
-		>
-		<Button
-			android:id="@+id/skillinfoinfo_action"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:text="@string/skillinfo_action_levelup"
-			/>
-
-		<Button
-			android:id="@+id/skillinfoinfo_close"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:text="@string/dialog_close"
-			/>
-	</LinearLayout>
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="?android:attr/dividerVertical"
+            android:layout_alignParentTop="true"/>
+        <View
+            android:id="@+id/skillinfoinfo_divider"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="?android:attr/dividerVertical" 
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/skillinfoinfo_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/skillinfoinfo_divider"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/dialog_close" 
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:id="@+id/skillinfoinfo_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/skillinfo_action_levelup" 
+            android:layout_alignParentBottom="true" 
+            android:layout_toRightOf="@id/skillinfoinfo_divider"/>
+    </RelativeLayout>
+	
 </LinearLayout>
