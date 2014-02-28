@@ -229,7 +229,6 @@ public final class ResourceLoader {
 		final Size src_sz7x1 = new Size(7, 1);
 		final Size src_sz20x12 = new Size(20, 12);
 		final Size src_mapTileSize = new Size(16, 8);
-		final Size src_mapTileSize7 = new Size(16, 7);
 
 		loader.prepareTileset(R.drawable.char_hero, "char_hero", src_sz1x1, defaultTileSize);
 
@@ -361,6 +360,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_transition_2, "map_transition_2", src_mapTileSize, defaultTileSize);
 		loader.prepareTileset(R.drawable.map_transition_3, "map_transition_3", src_mapTileSize, defaultTileSize);
 		loader.prepareTileset(R.drawable.map_transition_4, "map_transition_4", src_mapTileSize, defaultTileSize);
+		loader.prepareTileset(R.drawable.map_transition_5, "map_transition_5", src_mapTileSize, defaultTileSize);
 		loader.prepareTileset(R.drawable.map_tree_1, "map_tree_1", src_mapTileSize, defaultTileSize);
 		loader.prepareTileset(R.drawable.map_tree_2, "map_tree_2", src_mapTileSize, defaultTileSize);
 		loader.prepareTileset(R.drawable.map_wall_1, "map_wall_1", src_mapTileSize, defaultTileSize);
