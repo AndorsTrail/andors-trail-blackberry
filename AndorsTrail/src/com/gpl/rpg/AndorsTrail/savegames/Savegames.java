@@ -175,9 +175,7 @@ public final class Savegames {
 		public FileHeader(DataInputStream src) throws IOException {
 			int fileversion = src.readInt();
 			if (fileversion == 11) fileversion = 5; // Fileversion 5 had no version identifier, but the first byte was 11.
-			this.fileversion = fileversion; //Refer to BlackBerry workaround branch temporarily 
-
-			
+			this.fileversion = fileversion;
 			if (fileversion >= 14) { // Before fileversion 14 (0.6.7), we had no file header.
 				this.playerName = src.readUTF();
 				this.displayInfo = src.readUTF();
