@@ -100,7 +100,10 @@ Most of the interface should be easy to understand, but there are a few areas th
 [Experience & levels] (http://code.google.com/p/andors-trail/wiki/experience)
 
 **Edits to make upon update of release:
-	AndroidManifest.xml - 'versionCode' and for PlayBook target 
-	project.properties  - for PlayBook ONLY (target)
-	src/com/gpl/rpg/AndorsTrail/savegames/savegame.java (~line 178 to correspond to versionCode)
+
+	- AndroidManifest.xml - 'versionCode' and for PlayBook target 
+	
+	- project.properties  - for PlayBook ONLY (target)
+	
+	- src/com/gpl/rpg/AndorsTrail/savegames/savegame.java (~line 178 to correspond to versionCode)
     
